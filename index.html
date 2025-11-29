@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selangor AirSense</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Mapbox CSS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.1/mapbox-gl.css" rel="stylesheet" />
+</head>
+<body>
+
+<header>
+    Selangor AirSense
+</header>
+
+<div id="datetime"></div>
+
+<!-- Questionnaire -->
+<div id="questionnaire">
+    <h3>How are you feeling today? 😷</h3>
+
+    <label><input type="checkbox" class="symptom" value="Coughing"> Coughing</label>
+    <label><input type="checkbox" class="symptom" value="Throat Irritation"> Throat Irritation</label>
+    <label><input type="checkbox" class="symptom" value="Breathing Difficulty"> Breathing Difficulty</label>
+
+    <button id="checkHealthBtn">Check My Health</button>
+</div>
+
+<!-- Alert -->
+<div id="alertBox">
+    ⚠️ You may be experiencing symptoms related to haze exposure.
+    <br><br>
+    <a href="https://www.google.com/maps/search/klinik+kesihatan+near+me" target="_blank">
+        Find the nearest clinic or hospital →
+    </a>
+</div>
+
+<!-- Map -->
+<div id="map"></div>
+
+<!-- Footer -->
+<footer>
+    Selangor AirSense – Air Quality Awareness
+</footer>
+
+<!-- Mapbox JS -->
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.1.1/mapbox-gl.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

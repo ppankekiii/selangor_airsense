@@ -1,0 +1,115 @@
+/* Global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #b3e5fc, #e8f5e9); /* sky blue → green */
+}
+
+/* Header */
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+/* Date/Time */
+#datetime {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+/* Questionnaire */
+#questionnaire {
+    margin: 20px;
+    font-size: 1.15em;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+#questionnaire h3 {
+    margin-top: 0;
+    color: #2e7d32;
+    font-size: 1.3em;
+}
+
+#questionnaire label {
+    display: block;
+    padding: 5px 0;
+}
+
+/* Button */
+#checkHealthBtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+#checkHealthBtn:hover {
+    background-color: #45a049;
+}
+
+/* Alert Box */
+#alertBox {
+    display: none;
+    background: #fffbcc;
+    border-left: 5px solid #ff9800;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#alertBox a {
+    font-weight: bold;
+    color: #0066ff;
+    text-decoration: none;
+}
+
+#alertBox a:hover {
+    text-decoration: underline;
+}
+
+/* Map */
+#map {
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* Mapbox Popups */
+.mapboxgl-popup {
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+.mapboxgl-popup-content {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #2e7d32;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
